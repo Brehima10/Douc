@@ -32,7 +32,7 @@ public class daoMysql {
             //1-Chargement du Driver
               Class.forName("com.mysql.jdbc.Driver");
               //2-Ouvrir la Connexion
-               conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/gestion_etudiant_liage3", "root", "");
+               conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/gestion_commerciale_liage3", "root", "");
         }catch (ClassNotFoundException ex) {
             System.out.println("Erreur de Chargement de Driver");
         } catch (SQLException ex) {

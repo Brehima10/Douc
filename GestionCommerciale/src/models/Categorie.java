@@ -11,17 +11,17 @@ package models;
  */
 public class Categorie {
     private int id;
-    private int libelle;
+    private String libelle;
 
     public Categorie() {
     }
 
-    public Categorie(int id, int libelle) {
+    public Categorie(int id, String libelle) {
         this.id = id;
         this.libelle = libelle;
     }
 
-    public Categorie(int libelle) {
+    public Categorie(String libelle) {
         this.libelle = libelle;
     }
 
@@ -33,13 +33,13 @@ public class Categorie {
         this.id = id;
     }
 
-    public int getLibelle() {
+    public String getLibelle() {
         return libelle;
     }
 
-    public void setLibelle(int libelle) {
+    public void setLibelle(String libelle) {
         this.libelle = libelle;
     }
-    
-    
+
+   
 }
